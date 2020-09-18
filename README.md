@@ -1,5 +1,5 @@
 # BBY Coding Challenge
-##Prompts
+## Prompts
 
 1. Pick a language and write a function(s) to find the first, 7 digit, prime, palindromic number in the digits of Pi
 
