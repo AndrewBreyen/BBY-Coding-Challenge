@@ -1,5 +1,3 @@
-import datetime
-
 def check_prime(number):
     if number % 2 == 0 or number % 3 == 0:
         return False
