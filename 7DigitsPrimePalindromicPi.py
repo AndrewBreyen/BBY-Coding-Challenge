@@ -27,8 +27,11 @@ def check_palindrome(number):
 
 # main method
 def main():
-    # opens the pi.txt file for reading access into the digits variable
-    digits = open("./pi.txt", "r").read()
+    # opens the pi.txt file
+    pifile = open("pi.txt", "r")
+
+    #read file into 
+    digits = pifile.read()
     
     #sets curr_chunk = -1, so if the output is -1, we know there is an error
     curr_chunk = -1
@@ -42,7 +45,9 @@ def main():
 
     # print result
     print(f"First 7 digits in Pi that is prime and palindrome: {curr_chunk}")
-
+    
+    # close the file
+    pifile.close()
 
 #################################
 # PROGRAM EXECUTION STARTS HERE #
