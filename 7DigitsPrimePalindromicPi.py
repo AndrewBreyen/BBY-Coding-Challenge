@@ -1,3 +1,10 @@
+"""7DigitsPrimePalindromicPi.py: Implements Best Buy Coding Challenge to find the first 7 digit palendromic number of pi for the Associate Digital Engineer I position."""
+
+__author__      = "Andrew Breyen"
+__copyright__   = "Copyright 2020, Planet Earth"
+
+
+
 # a method to check if a number is prime
 # returns False if number is not prime, returns True if number is prime
 # https://www.geeksforgeeks.org/python-program-to-check-whether-a-number-is-prime-or-not/
